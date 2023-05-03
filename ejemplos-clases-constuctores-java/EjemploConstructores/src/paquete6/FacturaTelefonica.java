@@ -6,7 +6,7 @@
 package paquete6;
 
 public class FacturaTelefonica {
-
+//dos metodos constructores + 8 metodos set get
     private String numeroTelefono;
     private double minutosMes;
     private double valorMinuto;
