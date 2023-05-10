@@ -44,6 +44,18 @@ public class Persona {
     public Barrio obtenerBarrio(){
         return barrio;
     }
+
+    @Override
+    public String toString() {
+        String mensaje = String.format("------------------------------------------");
+        System.out.printf("El barrio de la persona %s es: %s\n Y pertenece a la "
+                + "ciudad: %s\n",
+                obtenerNombre(),
+                obtenerBarrio().obtenerNombre(),
+                obtenerBarrio().obtenerCiudad().obtenerNombre());
+                             
+        return mensaje;
+    }
     
     
 }
