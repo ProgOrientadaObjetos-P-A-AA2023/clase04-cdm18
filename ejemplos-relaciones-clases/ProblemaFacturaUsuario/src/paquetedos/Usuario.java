@@ -15,6 +15,10 @@ public class Usuario {
     private String apellido;
     private String identificacion;
     
+    
+    // LA CLASE TIENE 0 CONSTRUCTORES POR DEFECTO YA QUE
+    // LOS PERSONALIZADOS LA ANULAN, AHORA SOLO TIENE 2 CONSTRUCTORES
+    
     public Usuario(){
         nombre = "NN";
         apellido = "AA";
